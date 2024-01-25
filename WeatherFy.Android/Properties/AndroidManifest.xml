@@ -4,4 +4,5 @@
 	<application android:label="WeatherFy.Android" android:theme="@style/MainTheme" android:icon="@drawable/xamarin_logo"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 </manifest>
