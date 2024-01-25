@@ -1,5 +1,4 @@
 ﻿using System;
-using WeatherFy.Services;
 using WeatherFy.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,7 +12,6 @@ namespace WeatherFy
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new HomePage();
         }
 
